@@ -108,7 +108,7 @@ html {
   min-height: 100vh;
   font-family: sans-serif;
   line-height: 1.5;
-  background: #474266;
+  background: #0C6399;
   background-repeat: no-repeat;
   background-size: cover;
 }
