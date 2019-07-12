@@ -1,4 +1,6 @@
-
+<?php
+ $val = $json->$userID;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -172,8 +174,8 @@ body {
   <main>
     <h1 style="text-align:center;">Certificate of Appreciation</h1>
     <p style="text-align:center;">This certificate is to recognize</p>
-    <h1 style="text-align:center;"><?php echo $json -> $userID[0] ?></h1>
-    <p style="text-align:center;">for securing <b><?php echo $json -> $userID[1] ?></b> during Hack19,
+    <h1 style="text-align:center;"><?php echo $val[0] ?></h1>
+    <p style="text-align:center;">for securing <b><?php echo $val[1] ?></b> during Hack19,
 organised by IEEE Computer Society Student Branch Chapter College of Engineering Chengannur</p>
   </main>
 </div>
