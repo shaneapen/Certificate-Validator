@@ -1,4 +1,7 @@
+# [Certificate Validator](https://verify.cecieee.org)
+A web app to verify certificates issued by IEEE Student Branch College of Engineering Chengannur
 ## Google Sheet Custom function to generate n length ID
+Credits - (https://yagisanatode.com/2018/08/23/google-sheets-random-alphabetic-random-alphanumeric-and-random-alphanumeric-character-custom-functions/)
 ```
 function RANDALPHA(len) {
   var text = "";
