@@ -12,7 +12,7 @@ if($_POST['certificateID']){
 
 $event = substr($full_id,0,4);
 $year = substr($full_id,4,2);
-$userID = substr($full_id,6,4);
+$userID = substr($full_id,6);
 
 $dir = "data/".$event."/".$year;
 $certificate_file = $dir."/certificate.php";
@@ -26,9 +26,9 @@ if(file_exists($certificate_file) && file_exists($json_file)){
       if(array_key_exists($userID, $json))
             include $certificate_file;
       else
-            include '404.html';
+            include 'form.html';
             
 }else
-      include '404.html';
+      include 'form.html';
 
 ?>
