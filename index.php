@@ -21,7 +21,7 @@ if(file_exists($certificate_file) && file_exists($json_file)){
       
       $json = json_decode(file_get_contents($json_file, true));
 
-      if(array_key_exists($userID, $json))
+      if(isset($json->$userID))
             include $certificate_file;
       else
             include 'form.html';
